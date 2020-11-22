@@ -2,8 +2,15 @@
   margin: 0;
   padding: 0;
 }
+body{
+  padding: 30px;
+}
+.content{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 .grid{
   display:grid;
-  grid-template-columns: repeat(9, 100px);
-  grid-template-rows: repeat(9, 100px);
+  grid-template-columns: repeat(9, 70px);
+  grid-template-rows: repeat(9, 70px);
 }

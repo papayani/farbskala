@@ -2,36 +2,16 @@
   margin: 0;
   padding: 0;
 }
+body{
+  padding: 30px;
+}
+.content{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
 .grid{
   display:grid;
-  grid-template-columns: repeat(3, 300px);
-  grid-template-rows: repeat(3, 300px);
-}
-
-.erste{
-background-color: black;
-}
-.zweite{
-background-color: white;
-}
-.dritte{
-  background-color: black;
-}
-.vierte{
-  background-color: white;
-}
-.fünfte{
-  background-color: black;
-}
-.sechste{
-  background-color: white;
-}
-.siebte{
-  background-color: black;
-}
-.achte{
-  background-color: white;
-}
-.neunte{
-  background-color: black;
+  grid-template-columns: repeat(3, 210px);
+  grid-template-rows: repeat(3, 210px);
 }
